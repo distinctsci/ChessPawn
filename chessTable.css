@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    border: 10px solid green;
+    margin: 0px;
+}
+
+#gamespace{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+#arrows{
+    background-color: blue;
+    width: 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50%;
+    align-self: top;
+    margin: 0%;
+}
+
+.arrow{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+#top{
+    justify-self: center;
+    grid-column: 2;
+}
+
+#left, #right{
+    grid-row: 2/2;
+}
+
+#right{
+    grid-column: 3;
+}
+
+#bottom{
+    grid-row: 3/3;
+    grid-column: 2;
+    justify-self: center;
+}
+
+table{
+    width: auto;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+}
+.dark{
+    background-color: rgb(51, 1, 1);
+}
+
+.white{
+    background-color:rgb(255, 255, 143);
+}
+
+#pawn{
+    width: 50%;
+}
+
+.label{
+    background-color: rgb(250, 214, 167);
+    padding: 5px;
+    text-transform: capitalize;
+    transform: vertical text flip;
+}

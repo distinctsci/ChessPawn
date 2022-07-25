@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5X5 ChessTable</title>
+    <link rel="stylesheet" href="chessTable.css">
+</head>
+<body>
+    <h2>Here's a UI for a 5 X 5 chess table!</h2><br>
+
+    <main id="gamespace">
+        <div>
+            <table>
+                <tr class="label">
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th></th>
+                </tr>
+                <tr class="rowhead">
+                    <th class="label">a</th>
+                    <td class="dark"><img id="pawn" src="chessImages/e2440.png" alt=""></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <th class="label">a</th>
+                </tr>
+                <tr class="rowhead">
+                    <th class="label">b</th>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <th class="label">b</th>
+                </tr>
+                <tr class="rowhead">
+                    <th class="label">c</th>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <th class="label">c</th>
+                </tr>
+                <tr class="rowhead">
+                    <th class="label">d</th>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <th class="label">d</th>
+                </tr>
+                <tr class="rowhead">
+                    <th class="label">e</th>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <td class="white"></td>
+                    <td class="dark"></td>
+                    <th class="label">e</th>
+                </tr>
+                <tr class="label">
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th></th>
+            </table>
+        </div>
+
+        <div id="arrows">
+            <div id="top"><img class="arrow" id="up" src="chessImages/e2556.png" alt=""></div>
+            <div id="left"><img class="arrow" id="leftward" src="chessImages/e2555.png" alt=""></div>
+            <div id="right"><img class="arrow" id="rightward" src="chessImages/e2550.png" alt=""></div>
+            <div id="bottom"><img class="arrow" id="down" src="chessImages/e2557.png" alt=""></div>
+        </div>
+    </main>
+
+    <script src="pawnmove.js"></script>
+</body>
+</html>
